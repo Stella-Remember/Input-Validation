@@ -1,0 +1,44 @@
+.container {
+    @include container;
+  }
+  
+  header {
+    background-color: $primary-color;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    
+    nav {
+      @include flex-center;
+      justify-content: space-between;
+      
+      .logo {
+        font-family: $font-heading;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+      
+      ul {
+        display: none;
+        list-style: none;
+        gap: 2rem;
+        
+        @include respond-to('md') {
+          display: flex;
+        }
+        
+        li a {
+          color: white;
+          text-decoration: none;
+          font-weight: 500;
+          
+          &:hover {
+            color: $accent-color;
+          }
+        }
+      }
+    }
+  }
