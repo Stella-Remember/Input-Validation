@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #3498db;
+  background-color: #52a2a9;
   color: white;
   padding: 1rem;
 }
@@ -29,13 +29,13 @@ header nav ul li a:hover {
 }
 
 .hero {
-  background-color: #2ecc71;
+  background-color: #5295a6;
   padding: 2rem;
   text-align: center;
 }
 
 footer {
-  background-color: #3498db;
+  background-color: #52a2a9;
   color: white;
   text-align: center;
   padding: 1rem;
